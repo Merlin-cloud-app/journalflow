@@ -7,7 +7,7 @@ class EntryService {
   Future<int> createEntry(JournalEntry entry) async {
       final Database db = await DatabaseService.instance.database;
 
-          return await db.insert(
+          return db.insert(
                 'entries',
                       entry.toMap(),
                           );
@@ -26,13 +26,24 @@ class EntryService {
                                                                           .toList();
                                                                             }
 
-                                                                              Future<int> deleteEntry(int id) async {
+                                                                              Future<int> updateEntry(JournalEntry entry) async {
                                                                                   final Database db = await DatabaseService.instance.database;
 
-                                                                                      return await db.delete(
+                                                                                      return db.update(
                                                                                             'entries',
-                                                                                                  where: 'id = ?',
-                                                                                                        whereArgs: [id],
-                                                                                                            );
-                                                                                                              }
-                                                                                                              }
+                                                                                                  entry.toMap(),
+                                                                                                        where: 'id = ?',
+                                                                                                              whereArgs: [entry.id],
+                                                                                                                  );
+                                                                                                                    }
+
+                                                                                                                      Future<int> deleteEntry(int id) async {
+                                                                                                                          final Database db = await DatabaseService.instance.database;
+
+                                                                                                                              return db.delete(
+                                                                                                                                    'entries',
+                                                                                                                                          where: 'id = ?',
+                                                                                                                                                whereArgs: [id],
+                                                                                                                                                    );
+                                                                                                                                                      }
+                                                                                                                                                      }

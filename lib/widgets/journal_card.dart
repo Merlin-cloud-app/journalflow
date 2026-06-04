@@ -1,35 +1,34 @@
-class JournalEntry {
-      final int? id;
-        final String title;
-          final String content;
-            final String? imagePath;
-              final DateTime createdAt;
+import 'package:flutter/material.dart';
 
-                JournalEntry({
-                    this.id,
-                        required this.title,
-                            required this.content,
-                                this.imagePath,
-                                    required this.createdAt,
-                                      });
+import '../models/journal_entry.dart';
 
-                                        Map<String, dynamic> toMap() {
-                                            return {
-                                                  'id': id,
-                                                        'title': title,
-                                                              'content': content,
-                                                                    'imagePath': imagePath,
-                                                                          'createdAt': createdAt.toIso8601String(),
-                                                                              };
-                                                                                }
+class JournalCard extends StatelessWidget {
+  final JournalEntry entry;
+    final VoidCallback? onTap;
 
-                                                                                  factory JournalEntry.fromMap(Map<String, dynamic> map) {
-                                                                                      return JournalEntry(
-                                                                                            id: map['id'],
-                                                                                                  title: map['title'],
-                                                                                                        content: map['content'],
-                                                                                                              imagePath: map['imagePath'],
-                                                                                                                    createdAt: DateTime.parse(map['createdAt']),
-                                                                                                                        );
-                                                                                                                          }
-                                                                                                                          }
+      const JournalCard({
+          super.key,
+              required this.entry,
+                  this.onTap,
+                    });
+
+                      @override
+                        Widget build(BuildContext context) {
+                            return Card(
+                                  margin: const EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                                  vertical: 6,
+                                                        ),
+                                                              child: ListTile(
+                                                                      title: Text(entry.title),
+                                                                              subtitle: Text(
+                                                                                        entry.content,
+                                                                                                  maxLines: 2,
+                                                                                                            overflow: TextOverflow.ellipsis,
+                                                                                                                    ),
+                                                                                                                            trailing: const Icon(Icons.chevron_right),
+                                                                                                                                    onTap: onTap,
+                                                                                                                                          ),
+                                                                                                                                              );
+                                                                                                                                                }
+                                                                                                                                                }
