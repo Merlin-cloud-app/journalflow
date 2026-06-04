@@ -1,0 +1,9 @@
+Launching lib/main.dart on Linux in debug mode...
+Building Linux application...                                   
+CMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot copy file
+  "/workspaces/journalflow/build/linux/x64/debug/intermediates_do_not_run/journalflow"
+  to "/usr/local/journalflow": Permission denied.
+
+
+Error: Build process failed

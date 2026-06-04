@@ -1,0 +1,119 @@
+Analyzing journalflow...                                        
+
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/main.dart:1:1 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/main.dart:1:1 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/main.dart:1:1 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/main.dart:1:4 • expected_executable
+  error • Functions must have an explicit list of parameters. Try adding a parameter list • lib/main.dart:1:5 • missing_function_parameters
+  error • A function body must be provided. Try adding a function body • lib/main.dart:1:9 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/main.dart:1:9 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/main.dart:1:10 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/main.dart:1:10 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/main.dart:1:10 • missing_const_final_var_or_type
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/models/journal_entry.dart:1:1 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/models/journal_entry.dart:1:1 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/models/journal_entry.dart:1:1 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/models/journal_entry.dart:1:4 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/models/journal_entry.dart:1:5 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/models/journal_entry.dart:1:5 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/models/journal_entry.dart:1:5 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/models/journal_entry.dart:1:11 • expected_executable
+   info • The variable name 'journal_entry' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style • lib/models/journal_entry.dart:1:12 • non_constant_identifier_names
+  error • Functions must have an explicit list of parameters. Try adding a parameter list • lib/models/journal_entry.dart:1:12 • missing_function_parameters
+  error • A function body must be provided. Try adding a function body • lib/models/journal_entry.dart:1:25 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/models/journal_entry.dart:1:25 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/models/journal_entry.dart:1:26 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/models/journal_entry.dart:1:26 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/models/journal_entry.dart:1:26 • missing_const_final_var_or_type
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/screens/entry_screen.dart:1:1 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/screens/entry_screen.dart:1:1 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/screens/entry_screen.dart:1:1 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/screens/entry_screen.dart:1:4 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/screens/entry_screen.dart:1:5 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/screens/entry_screen.dart:1:5 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/screens/entry_screen.dart:1:5 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/screens/entry_screen.dart:1:12 • expected_executable
+   info • The variable name 'entry_screen' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style • lib/screens/entry_screen.dart:1:13 • non_constant_identifier_names
+  error • Functions must have an explicit list of parameters. Try adding a parameter list • lib/screens/entry_screen.dart:1:13 • missing_function_parameters
+  error • A function body must be provided. Try adding a function body • lib/screens/entry_screen.dart:1:25 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/screens/entry_screen.dart:1:25 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/screens/entry_screen.dart:1:26 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/screens/entry_screen.dart:1:26 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/screens/entry_screen.dart:1:26 • missing_const_final_var_or_type
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/screens/home_screen.dart:1:1 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/screens/home_screen.dart:1:1 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/screens/home_screen.dart:1:1 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/screens/home_screen.dart:1:4 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/screens/home_screen.dart:1:5 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/screens/home_screen.dart:1:5 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/screens/home_screen.dart:1:5 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/screens/home_screen.dart:1:12 • expected_executable
+   info • The variable name 'home_screen' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style • lib/screens/home_screen.dart:1:13 • non_constant_identifier_names
+  error • Functions must have an explicit list of parameters. Try adding a parameter list • lib/screens/home_screen.dart:1:13 • missing_function_parameters
+  error • A function body must be provided. Try adding a function body • lib/screens/home_screen.dart:1:24 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/screens/home_screen.dart:1:24 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/screens/home_screen.dart:1:25 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/screens/home_screen.dart:1:25 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/screens/home_screen.dart:1:25 • missing_const_final_var_or_type
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/database_service.dart:1:1 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/database_service.dart:1:1 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/database_service.dart:1:1 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/database_service.dart:1:4 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/database_service.dart:1:5 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/database_service.dart:1:5 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/database_service.dart:1:5 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/database_service.dart:1:13 • expected_executable
+   info • The variable name 'database_service' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style • lib/services/database_service.dart:1:14 • non_constant_identifier_names
+  error • Functions must have an explicit list of parameters. Try adding a parameter list • lib/services/database_service.dart:1:14 • missing_function_parameters
+  error • A function body must be provided. Try adding a function body • lib/services/database_service.dart:1:30 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/database_service.dart:1:30 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/database_service.dart:1:31 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/database_service.dart:1:31 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/database_service.dart:1:31 • missing_const_final_var_or_type
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/entry_service.dart:1:1 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/entry_service.dart:1:1 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/entry_service.dart:1:1 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/entry_service.dart:1:4 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/entry_service.dart:1:5 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/entry_service.dart:1:5 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/entry_service.dart:1:5 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/entry_service.dart:1:13 • expected_executable
+   info • The variable name 'entry_service' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style • lib/services/entry_service.dart:1:14 • non_constant_identifier_names
+  error • Functions must have an explicit list of parameters. Try adding a parameter list • lib/services/entry_service.dart:1:14 • missing_function_parameters
+  error • A function body must be provided. Try adding a function body • lib/services/entry_service.dart:1:27 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/entry_service.dart:1:27 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/entry_service.dart:1:28 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/entry_service.dart:1:28 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/entry_service.dart:1:28 • missing_const_final_var_or_type
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/photo_service.dart:1:1 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/photo_service.dart:1:1 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/photo_service.dart:1:1 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/photo_service.dart:1:4 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/photo_service.dart:1:5 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/photo_service.dart:1:5 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/photo_service.dart:1:5 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/photo_service.dart:1:13 • expected_executable
+   info • The variable name 'photo_service' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style • lib/services/photo_service.dart:1:14 • non_constant_identifier_names
+  error • Functions must have an explicit list of parameters. Try adding a parameter list • lib/services/photo_service.dart:1:14 • missing_function_parameters
+  error • A function body must be provided. Try adding a function body • lib/services/photo_service.dart:1:27 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/services/photo_service.dart:1:27 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/services/photo_service.dart:1:28 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/services/photo_service.dart:1:28 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/services/photo_service.dart:1:28 • missing_const_final_var_or_type
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/widgets/journal_card.dart:1:1 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/widgets/journal_card.dart:1:1 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/widgets/journal_card.dart:1:1 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/widgets/journal_card.dart:1:4 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/widgets/journal_card.dart:1:5 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/widgets/journal_card.dart:1:5 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/widgets/journal_card.dart:1:5 • missing_const_final_var_or_type
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/widgets/journal_card.dart:1:12 • expected_executable
+   info • The variable name 'journal_card' isn't a lowerCamelCase identifier. Try changing the name to follow the lowerCamelCase style • lib/widgets/journal_card.dart:1:13 • non_constant_identifier_names
+  error • Functions must have an explicit list of parameters. Try adding a parameter list • lib/widgets/journal_card.dart:1:13 • missing_function_parameters
+  error • A function body must be provided. Try adding a function body • lib/widgets/journal_card.dart:1:25 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration. This appears to be incomplete code. Try removing it or completing it • lib/widgets/journal_card.dart:1:25 • expected_executable
+   info • An uninitialized variable should have an explicit type annotation. Try adding a type annotation • lib/widgets/journal_card.dart:1:26 • prefer_typing_uninitialized_variables
+  error • Expected to find ';' • lib/widgets/journal_card.dart:1:26 • expected_token
+  error • Variables must be declared using the keywords 'const', 'final', 'var' or a type name. Try adding the name of the type of the variable or the keyword 'var' • lib/widgets/journal_card.dart:1:26 • missing_const_final_var_or_type
+  error • The name 'MyApp' isn't a class. Try correcting the name to match an existing class • test/widget_test.dart:16:35 • creation_with_non_type
+
