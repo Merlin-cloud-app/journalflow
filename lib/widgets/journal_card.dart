@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 import '../models/journal_entry.dart';
@@ -20,15 +22,22 @@ class JournalCard extends StatelessWidget {
                                                   vertical: 6,
                                                         ),
                                                               child: ListTile(
-                                                                      title: Text(entry.title),
-                                                                              subtitle: Text(
-                                                                                        entry.content,
-                                                                                                  maxLines: 2,
-                                                                                                            overflow: TextOverflow.ellipsis,
-                                                                                                                    ),
-                                                                                                                            trailing: const Icon(Icons.chevron_right),
-                                                                                                                                    onTap: onTap,
-                                                                                                                                          ),
-                                                                                                                                              );
-                                                                                                                                                }
-                                                                                                                                                }
+                                                                      leading: entry.imagePath != null
+                                                                                  ? Image.file(
+                                                                                                  File(entry.imagePath!),
+                                                                                                                  width: 50,
+                                                                                                                                  height: 50,
+                                                                                                                                                  fit: BoxFit.cover,
+                                                                                                                                                                )
+                                                                                                                                                                            : const Icon(Icons.book),
+                                                                                                                                                                                    title: Text(entry.title),
+                                                                                                                                                                                            subtitle: Text(
+                                                                                                                                                                                                      entry.content,
+                                                                                                                                                                                                                maxLines: 2,
+                                                                                                                                                                                                                          overflow: TextOverflow.ellipsis,
+                                                                                                                                                                                                                                  ),
+                                                                                                                                                                                                                                          onTap: onTap,
+                                                                                                                                                                                                                                                ),
+                                                                                                                                                                                                                                                    );
+                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                      }
